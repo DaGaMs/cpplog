@@ -54,6 +54,18 @@
 #define LL_ERROR	4
 #define LL_FATAL	5
 
+#ifndef CPPLOG_NO_THREADING
+#define CPPLOG_NO_THREADING
+#endif
+#ifndef CPPLOG_NO_SYSTEM_IDS
+#define CPPLOG_NO_SYSTEM_IDS
+#endif
+#ifndef CPPLOG_FATAL_NOEXIT
+#define CPPLOG_FATAL_NOEXIT
+#endif
+
+#define CPPLOG_FILTER_LEVEL				LL_WARN
+
 
 // ------------------------------ CONFIGURATION ------------------------------
 
